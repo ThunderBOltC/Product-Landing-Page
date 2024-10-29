@@ -1,0 +1,100 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styling */
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+  #header-img {
+    width: 120px;
+  }
+  
+  /* Navbar Styling */
+  #nav-bar ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  .nav-link:hover {
+    background-color: #ff5722;
+    border-radius: 5px;
+  }
+  
+  /* Main Content Styling */
+  section {
+    padding: 100px 20px;
+    margin-top: 60px;
+  }
+  
+  #features {
+    background-color: #333;
+    color: white;
+  }
+  
+  #pricing {
+    background-color: #222;
+    color: white;
+  }
+  
+  #contact {
+    background-color: #1a1a1a;
+    color: white;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-top: 20px;
+  }
+  
+  #email {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+  }
+  
+  #submit {
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    background-color: #e64a19;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #header {
+      flex-direction: column;
+    }
+    #nav-bar ul {
+      flex-direction: column;
+    }
+  }
+  
